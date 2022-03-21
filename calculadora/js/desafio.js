@@ -20,8 +20,8 @@ horasProjeto.addEventListener('change', function(){
 function calcular(){
 
     
-         var valorTotal = valorHora.value * horasProjeto;
-    console.log(valorTotal.value);
+         var valorTotal = valorHora * horasProjeto;
+    console.log(valorTotal);
 
     resultado.innerHTML = "R$" + valorTotal.toFixed(2);
     
